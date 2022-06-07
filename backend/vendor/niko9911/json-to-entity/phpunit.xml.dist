@@ -1,0 +1,18 @@
+<phpunit bootstrap="vendor/autoload.php">
+
+    <testsuites>
+        <testsuite name="Default">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+            <exclude>
+                <!-- Common excludes -->
+                <directory>src/Domain/Exception</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

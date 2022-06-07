@@ -1,0 +1,109 @@
+.rating-avg {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.rating-avg .rating-stars {
+  margin-left: 10px;
+}
+
+.rating-avg .rating-stars,
+.rating .rating-stars {
+  display: inline-block;
+}
+
+.rating-avg .rating-stars > i,
+.rating .rating-stars > i {
+  color: #e4e7ed;
+}
+
+.rating-avg .rating-stars > i.fa-star,
+.rating .rating-stars > i.fa-star {
+  color: #d10024;
+}
+
+.rating li {
+  margin: 5px 0px;
+}
+/*-- Reviews --*/
+
+.reviews li {
+  position: relative;
+  padding-left: 145px;
+}
+
+.reviews-pagination {
+  text-align: center;
+}
+
+.reviews-pagination li {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e4e7ed;
+  transition: 0.2s all;
+}
+
+.reviews-pagination li:hover {
+  background-color: #e4e7ed;
+  color: #d10024;
+}
+
+.reviews-pagination li.active {
+  background-color: #d10024;
+  border-color: #d10024;
+  color: #fff;
+  cursor: default;
+}
+
+.reviews-pagination li a {
+  display: block;
+}
+
+/*-- Review Form --*/
+
+.input {
+  margin-bottom: 15px;
+}
+
+.input-rating {
+  margin-bottom: 15px;
+}
+
+.input-rating .stars {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.input-rating .stars div input[type="radio"] {
+  display: none;
+}
+
+.input-rating .stars div > label {
+  float: right;
+  cursor: pointer;
+  padding: 0px 3px;
+  margin: 0px;
+}
+
+.input-rating .stars div > label:before {
+  content: "\f006";
+  font-family: FontAwesome;
+  color: #e4e7ed;
+  transition: 0.2s all;
+}
+
+.input-rating .stars div > label:hover:before,
+.input-rating .stars div > label:hover ~ div label:before {
+  color: #d10024;
+}
+
+.input-rating .stars div > input:checked label:before,
+.input-rating .stars div > input:checked ~ label:before {
+  content: "\f005";
+  color: #d10024;
+}

@@ -1,0 +1,10 @@
+#policy .title{
+    margin-top: 0;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+#policy .content{
+  margin-top: 20px;
+  padding-top: 5px;
+}

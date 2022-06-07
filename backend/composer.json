@@ -1,0 +1,17 @@
+{
+    "require": {
+        "firebase/php-jwt": "^5.4",
+        "vlucas/phpdotenv": "^2.4",
+        "psr/http-server-middleware": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "ext-pdo": "*",
+      "ext-json": "*",
+        "niko9911/json-to-entity": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}

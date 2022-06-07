@@ -1,0 +1,16 @@
+.after-tab-nav {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background-color: #e4e7ed;
+  z-index: -1;
+}
+.tab-nav {
+  position: relative;
+  text-align: center;
+  padding: 15px 0px;
+  margin-bottom: 30px;
+}
